@@ -172,3 +172,21 @@ Only necessary endpoints are exposed, while admin or sensitive endpoints are res
 - **Securing payments:** Ensures all payment transactions are safe and cannot be intercepted or manipulated.
 - **Maintaining system integrity:** Prevents malicious access and keeps the system reliable and stable.
 - **Building user trust:** A secure system increases user confidence and platform credibility.
+
+## CI/CD Pipeline
+
+### Continuous Integration (CI)
+Continuous Integration ensures that code changes are automatically tested and validated whenever they are pushed to the repository. This helps detect bugs early, maintain code quality, and prevent integration issues during development.
+
+### Continuous Delivery/Deployment (CD)
+Continuous Delivery automates the process of preparing code for deployment, while Continuous Deployment goes one step further by automatically releasing updates to the production environment. This ensures faster and more reliable delivery of new features and fixes.
+
+### Importance for the Project
+Implementing a CI/CD pipeline improves development efficiency by automating testing, building, and deployment processes. It reduces human errors, ensures consistent code quality, and enables rapid iterations — which is essential for a scalable backend like the Airbnb Clone.
+
+### Tools Used
+- **GitHub Actions** – Automates testing and integration workflows
+- **Docker** – Containerizes application components for consistent deployment
+- **Docker Compose** – Manages multi-container deployments
+- **CI/CD pipelines** – Used to run automated build and deploy steps
+
