@@ -41,3 +41,24 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+# 👥 Team Roles
+## Business Analyst (BA)
+Collects and analyzes requirements and communicates them to the development team.
+## Product Owner (PO)
+Owns the product vision, manages the product backlog, and prioritizes features.
+## Project Manager (PM)
+Coordinates project tasks, timelines, and communication across the team.
+## UI/UX Designer
+Designs intuitive user interfaces and improves the overall user experience.
+## Software Architect
+Defines system structure and ensures scalability, performance, and technology choices.
+## Frontend Developer
+Implements the user interface and ensures smooth interaction with backend services.
+## Backend Developer
+Develops server-side logic, APIs, and manages database integration.
+## QA Engineer
+Tests the application manually to ensure functionality and quality.
+## Test Automation Engineer
+Creates automated test scripts to speed up and improve testing efficiency.
+## DevOps Engineer
+Builds deployment pipelines and manages infrastructure and cloud environments.
