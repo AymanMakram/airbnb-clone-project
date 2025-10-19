@@ -120,3 +120,26 @@ A user can leave multiple reviews, and each property can have many reviews.
 - Each **Booking** has one **Payment**
 - One **Property** can have many **Reviews**
 - One **User** can write many **Reviews**
+
+## Feature Breakdown
+
+### User Management
+Allows users to register, log in, and manage their profiles securely. This feature supports both guests and hosts, enabling authentication and role-based access to resources.
+
+### Property Management
+Hosts can create, edit, and delete property listings. Each property includes key details such as title, description, location, price, and availability to help users make booking decisions.
+
+### Booking System
+Enables users to book available properties for specific dates. The system checks availability and prevents double bookings while allowing users to view and manage their reservations.
+
+### Payment Processing
+Handles secure payment transactions linked to bookings. This ensures that users can pay for their reservations safely, and hosts can receive payments reliably.
+
+### Review System
+Allows users to leave feedback and ratings on properties they have stayed in. Reviews help improve transparency, build trust, and enhance the decision-making process for future guests.
+
+### API Documentation
+Provides well-structured REST and GraphQL API documentation. This supports easy integration, testing, and collaboration by clearly explaining how the backend endpoints can be used.
+
+### Database Optimization
+Improves performance by implementing indexing, relationships, and caching. This helps speed up data retrieval, reduces system load, and enhances scalability for future growth.
