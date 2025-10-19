@@ -82,3 +82,41 @@ Handles background and asynchronous tasks like sending notifications or processi
 Used to containerize the application, ensuring consistent development and deployment across environments.
 ## CI/CD Pipelines
 Automates testing and deployment workflows, ensuring rapid and reliable releases.
+
+## Database Design
+
+### Users
+Stores information about all users, including guests and hosts.  
+**Important Fields:** `id`, `name`, `email`, `password`, `role`  
+A user can create property listings and make bookings.
+
+### Properties
+Represents properties listed by hosts for booking.  
+**Important Fields:** `id`, `host_id`, `title`, `location`, `price_per_night`  
+Each property belongs to one user (host), but a user can have many properties.
+
+### Bookings
+Contains reservation details made by users.  
+**Important Fields:** `id`, `user_id`, `property_id`, `check_in`, `check_out`  
+A booking links a user to a property and defines the stay duration.
+
+### Payments
+Tracks payments related to property bookings.  
+**Important Fields:** `id`, `booking_id`, `amount`, `status`, `payment_date`  
+Each payment is linked to one booking.
+
+### Reviews
+Stores feedback left by users about properties.  
+**Important Fields:** `id`, `user_id`, `property_id`, `rating`, `comment`  
+A user can leave multiple reviews, and each property can have many reviews.
+
+---
+
+### Entity Relationships
+
+- One **User** can have many **Properties**
+- One **User** can make many **Bookings**
+- One **Property** can have many **Bookings**
+- Each **Booking** has one **Payment**
+- One **Property** can have many **Reviews**
+- One **User** can write many **Reviews**
