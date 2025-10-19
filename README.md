@@ -62,3 +62,23 @@ Tests the application manually to ensure functionality and quality.
 Creates automated test scripts to speed up and improve testing efficiency.
 ## DevOps Engineer
 Builds deployment pipelines and manages infrastructure and cloud environments.
+
+# Technology Stack
+## Python
+The core programming language used to build the backend logic and application functionality.
+## Django
+A high-level Python web framework used to develop the backend structure and handle HTTP requests efficiently.
+## Django REST Framework (DRF)
+A powerful toolkit that simplifies building RESTful APIs for handling users, properties, bookings, and payments.
+## GraphQL
+Provides a flexible and efficient way to query and manipulate data, allowing clients to request only what they need.
+## PostgreSQL
+A reliable and scalable relational database used to store structured project data such as users, listings, and bookings.
+## Redis
+Used for caching and session management to improve system speed and reduce database load.
+## Celery
+Handles background and asynchronous tasks like sending notifications or processing payments.
+## Docker
+Used to containerize the application, ensuring consistent development and deployment across environments.
+## CI/CD Pipelines
+Automates testing and deployment workflows, ensuring rapid and reliable releases.
