@@ -143,3 +143,32 @@ Provides well-structured REST and GraphQL API documentation. This supports easy 
 
 ### Database Optimization
 Improves performance by implementing indexing, relationships, and caching. This helps speed up data retrieval, reduces system load, and enhances scalability for future growth.
+
+## API Security
+
+### Authentication
+Only verified users can access the API using secure login methods. This prevents unauthorized access and ensures that each request is tied to a valid user identity.
+
+### Authorization
+Permissions are enforced based on user roles (e.g. guest, host, admin). This ensures users can only access resources they own or are allowed to interact with, such as managing their own properties or bookings.
+
+### Data Encryption
+Sensitive data, such as passwords and payment information, is encrypted in transit and at rest. This helps protect user privacy and prevents data breaches.
+
+### Rate Limiting
+Limits the number of requests a user or IP can make in a specific time frame. This prevents abuse of the API and protects the system from denial-of-service (DoS) attacks.
+
+### Input Validation
+All user inputs are validated and sanitized before being processed. This prevents common attacks such as SQL injection, cross-site scripting (XSS), and data corruption.
+
+### Secure API Endpoints
+Only necessary endpoints are exposed, while admin or sensitive endpoints are restricted. This reduces attack surfaces and improves backend security.
+
+---
+
+### Why Security Matters
+
+- **Protecting user data:** Prevents data leaks of sensitive information like emails, passwords, and personal details.
+- **Securing payments:** Ensures all payment transactions are safe and cannot be intercepted or manipulated.
+- **Maintaining system integrity:** Prevents malicious access and keeps the system reliable and stable.
+- **Building user trust:** A secure system increases user confidence and platform credibility.
